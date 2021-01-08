@@ -8,13 +8,13 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.2",
-    "postcss": "8.1.7",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "10.2.1",
+    "postcss": "8.2.3",
+    "tailwindcss": "2.0.2"
   },
   "license": "MIT"
 }
