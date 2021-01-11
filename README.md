@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.pejuangkode.com">
-    <img alt="Gatsby" src="./public/images/banner.png" width="120" height="120" />
+    <img alt="Gatsby" src="./public/images/banner.jpg" width="120" height="120" />
   </a>
 </p>
 <h1 align="center">
