@@ -6,7 +6,7 @@
   "repository": "https://github.com/pejuang-kode/pejuangkode.com",
   "bugs": "https://github.com/pejuang-kode/pejuangkode.com/issues",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next",
     "build": "next build",
