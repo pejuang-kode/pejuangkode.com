@@ -1,29 +1,40 @@
-# Tailwind CSS example
+<p align="center">
+  <a href="https://www.pejuangkode.com">
+    <img alt="Gatsby" src="./public/images/banner.png" width="120" height="120" />
+  </a>
+</p>
+<h1 align="center">
+  Pejuang Kode
+</h1>
 
-This is an example of using [Tailwind CSS](https://tailwindcss.com) in a Next.js project.
+## Selamat datang
 
-## Deploy your own
+Pejuang Kode adalah wadah belajar bersama dengan beragam topik bahasan mulai dari pemrograman, karir, hingga keluarga.
 
-Deploy the example using [Vercel](https://vercel.com):
+## Ruang diskusi
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+Sebagai sarana untuk membangun pengetahuan bersama, kami memiliki ruang diskusi di Discord [Pejuang Kode](https://discord.gg/n2Pm2s7)
 
-## How to use
+## Mengembangkan di `localhost`
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+Disarankan untun menggunakan [Node.js](https://nodejs.org/en/) versi >= 12.0.0 dengan [yarn](https://yarnpkg.com/) sebagai _package manager_.
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+# instal pustaka/dependensi
+yarn
+
+# jalankan secara lokal di `localhost:3000`
+yarn dev
+
+# buat _production build_
+yarn build
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Berkontribusi
 
-## Notes
+Kami menerima _pull requests_ dari siapapun! Silakan membaca [Panduan Berkontribusi](KONTRIBUSI.md) untuk informasi lebih lanjut.
 
-This example is a basic starting point for using [Tailwind CSS](https://tailwindcss.com) with Next.js. It includes the following [PostCSS](https://github.com/postcss/postcss) plugins:
+## Credits
 
-- [postcss-preset-env](https://preset-env.cssdb.org/) - Adds stage 2+ features and autoprefixes
-
-To control the generated stylesheet's filesize, this example uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
+- Dibuat dengan [Next.js](https://nextjs.org/).
+- Menggunakan [TailwindCSS](https://tailwindcss.com/).
