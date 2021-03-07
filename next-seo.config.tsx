@@ -1,8 +1,16 @@
+type MYSEO = {
+  title: string,
+  description: string,
+  canonical: string,
+  openGraph: object,
+  twitter: object,
+};
+
 const title = "Pejuang Kode";
 const description =
   "Pejuang Kode sebagai wadah belajar bersama dengan beragam topik bahasan mulai dari pemrograman, karir, hingga keluarga.";
 
-const SEO = {
+const SEO: MYSEO = {
   title,
   description,
   canonical: "https://pejuangkode.vercel.app",
